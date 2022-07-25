@@ -1,18 +1,29 @@
-## Getting Started
+# Java 8
+Released Date:- March 18, 2014
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+>Top Java 8 Features with Examples
 
-The workspace contains two folders by default, where:
+-   Functional Interfaces
+-   Lambda Expressions
+-   forEach() Method In Iterable Interface
+-   Optional Class
+-   Default And Static Methods In Interfaces
+-   Java Stream API For Bulk Data Operations On Collections
+-   Java Date Time API
+-   Collection API Improvements
+-   Java IO Improvements
+-   Miscellaneous Core API Improvements
+-   Base64 Encode Decode
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+>Functional Interface
+-   It is an interface which can have only one abstract method.
+-   It is also called as SAM (Single Abstract Method)
+-   It can have any number of default and static method
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+>
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+
