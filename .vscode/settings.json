@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "java8Learning/src/streamApi",
         "java8Learning/src/functionalInterface",
-        "java8Learning/src/streamApi"
+        "java8Learning/src/lambdaExpression"
     ]
 }

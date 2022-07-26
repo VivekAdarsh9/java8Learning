@@ -1,5 +1,4 @@
 package lambdaExpression;
-
 public class LambdaEpressionCreatingThread {
     public static void main(String[] args) {
 
