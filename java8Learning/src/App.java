@@ -1,4 +1,8 @@
 import defaultMethod.PaymentTypeImp;
+import streamApi.UpperCaseMapping;
+
+import javax.xml.namespace.QName;
+import java.util.Collection;
 
 public class App {
     public static final PaymentTypeImp paymentTypeImp = new PaymentTypeImp();
@@ -16,9 +20,9 @@ public class App {
 //        System.out.println(StreamApiPracticeQuestion.countOccurrenceOfEachCharacter("VivekAdarsh"));
 //        StreamApiPracticeQuestion.countOccurrenceOfEachCharacter("vivekadarsh").forEach((character,count)-> System.out.print("'"+ character +":"+count+","));
 
-        paymentTypeImp.showPaymentType();
-        paymentTypeImp.showCARDPaymentType();
-
+       // paymentTypeImp.showPaymentType();
+//        paymentTypeImp.showCARDPaymentType();
+       UpperCaseMapping.mapToUpperCase("john", "jane", "doe").forEach(System.out:: println);
 
     }
 }

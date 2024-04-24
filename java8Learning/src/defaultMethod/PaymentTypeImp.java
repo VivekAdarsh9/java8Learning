@@ -1,5 +1,7 @@
 package defaultMethod;
 
+import java.io.ObjectOutputStream;
+
 public class PaymentTypeImp implements PaymentTypeIndia,PaymentTypeUSA{
 
     @Override

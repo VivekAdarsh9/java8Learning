@@ -4,6 +4,7 @@ import java.io.InputStream;
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamApiPracticeQuestion {
 
@@ -44,18 +45,15 @@ public class StreamApiPracticeQuestion {
 
     }
 
-//    public static List duplicateElementFromString(String name){
-//
-//        ArrayList al= new ArrayList<>();
-//        List x= (List) name.chars();
-//        x.stream().
-//                filter(n-> Collections.frequency(x,n)>1).
-//                collect(Collectors.toSet());
-//
-//
-//
-//        return map;
-//
-//    }
-}
+    //from a list of names, give me the total number of letters in all the names with more than 5 letters
+    public static int getTotalNumberOfLettersOfNamesLongerThanFive(String... name) {
+
+        return (Stream.of(name)
+                .filter(n -> n.length() > 5)
+                .mapToInt(n -> n.length())
+                .sum()
+        );
+    }
+    }
+
 
